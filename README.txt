@@ -1,19 +1,24 @@
 MAYES STRUCTURAL SOLUTIONS WEBSITE
 
-FILES
-- index.html: website content
-- styles.css: website appearance and responsive layout
-- CNAME: tells GitHub Pages to use www.mayesstructural.com
-- images/mayes-structural-solutions-logo.png: business logo
+UPLOAD THESE ITEMS TO THE ROOT OF THE EXISTING GITHUB REPOSITORY:
+- index.html
+- styles.css
+- script.js
+- CNAME
+- images folder
 
-BEFORE UPLOADING
-1. Open index.html in a text editor.
-2. Find YOUR-EMAIL@MAYESSTRUCTURAL.COM.
-3. Replace it with the exact business email address you want the button to open.
-4. Save the file.
+README.txt is only an instruction file and may also be uploaded.
 
-GITHUB UPLOAD
-Upload the contents of this folder, not the outer folder itself, to the root of the GitHub repository.
+UPDATE PROCEDURE
+1. Open the GitHub repository.
+2. Select Add file, then Upload files.
+3. Upload all files and the images folder from this package.
+4. Confirm replacement of files with the same names.
+5. Commit directly to the main branch.
+6. Wait for GitHub Pages to redeploy, then refresh the website.
 
-IMPORTANT
-Do not remove existing Microsoft 365 email DNS records when connecting the website domain to GitHub Pages.
+CUSTOM DOMAIN
+The CNAME file is configured for www.mayesstructural.com.
+
+CONTACT EMAIL
+The website email link is info@MayesStructural.com.

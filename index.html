@@ -1,28 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Mayes Structural Solutions provides structural engineering consulting for steel erection engineering, rigging plans, and technical peer reviews.">
+  <meta name="theme-color" content="#181858">
   <title>Mayes Structural Solutions</title>
-  <link rel="icon" type="image/png" href="images/mayes-structural-solutions-logo.png">
+  <link rel="icon" href="images/mss-logo.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
   <header class="site-header">
     <div class="container header-inner">
       <a class="logo-link" href="#top" aria-label="Mayes Structural Solutions home">
-        <img class="site-logo" src="images/mayes-structural-solutions-logo.png" alt="Mayes Structural Solutions">
+        <img class="site-logo" src="images/mss-logo.png" alt="Mayes Structural Solutions">
       </a>
       <a class="button button-primary header-button" href="#contact">Discuss a Project</a>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
+  <main id="main">
+    <section class="hero" id="top">
       <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow"><span aria-hidden="true">✓</span> Engineering judgment grounded in field experience</p>
+        <div>
+          <p class="eyebrow">Engineering judgment grounded in field experience</p>
           <h1>Practical structural solutions for steel erection.</h1>
           <p class="lead">Mayes Structural Solutions provides focused consulting for steel erection engineering, rigging plans, and technical peer reviews.</p>
           <div class="button-row">
@@ -31,10 +34,10 @@
           </div>
         </div>
 
-        <aside class="approach-card" aria-labelledby="approach-title">
+        <aside class="approach-card" aria-labelledby="approach-heading">
           <div class="approach-rule"></div>
-          <p class="section-label light">Core Approach</p>
-          <h2 id="approach-title">Clear thinking. Useful documents. Responsive collaboration.</h2>
+          <p class="section-label section-label-light">Core Approach</p>
+          <h2 id="approach-heading">Clear thinking. Useful documents. Responsive collaboration.</h2>
           <ul class="check-list">
             <li>Project-specific engineering</li>
             <li>Constructability-minded review</li>
@@ -72,15 +75,129 @@
       </div>
     </section>
 
+    <section class="featured-project" aria-labelledby="featured-heading">
+      <div class="container featured-grid">
+        <button class="image-button featured-image" type="button" data-lightbox="images/miami-marlins-retractable-roof.png" data-alt="Aerial view of the Miami Marlins retractable roof during construction">
+          <img src="images/miami-marlins-retractable-roof.png" alt="Aerial view of the Miami Marlins retractable roof during construction">
+          <span class="zoom-hint">View larger</span>
+        </button>
+        <div class="featured-copy">
+          <p class="section-label section-label-light">Signature Project</p>
+          <h2 id="featured-heading">Miami Marlins Retractable Roof</h2>
+          <p>Erection planning by Curtis L. Mayes for LPR Construction Co.</p>
+          <p class="photo-credit">Photo courtesy of Aerial Photography, Inc. Used with permission.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-intro">
+          <p class="section-label">Selected Experience</p>
+          <h2>Project gallery</h2>
+          <p>Examples of erection planning, rigging design, temporary works, and field implementation.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-card">
+            <button class="image-button" type="button" data-lightbox="images/dr-phillips-lift.png" data-alt="Large roof assembly being lifted by cranes at the Dr. Phillips Center Complex">
+              <img src="images/dr-phillips-lift.png" alt="Large roof assembly being lifted by cranes at the Dr. Phillips Center Complex" loading="lazy">
+              <span class="zoom-hint">View larger</span>
+            </button>
+            <figcaption>
+              <h3>Dr. Phillips Center Complex</h3>
+              <p>Rigging lift design by Curtis L. Mayes</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <button class="image-button" type="button" data-lightbox="images/dr-phillips-finished.png" data-alt="Completed Dr. Phillips Center for the Performing Arts illuminated at night">
+              <img src="images/dr-phillips-finished.png" alt="Completed Dr. Phillips Center for the Performing Arts illuminated at night" loading="lazy">
+              <span class="zoom-hint">View larger</span>
+            </button>
+            <figcaption>
+              <h3>Dr. Phillips Center for the Performing Arts</h3>
+              <p>Erection planning by Curtis L. Mayes for LPR Construction Co.</p>
+              <p class="photo-credit">Photo by Curtis L. Mayes</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <button class="image-button diagram" type="button" data-lightbox="images/dr-phillips-rigging.png" data-alt="Four-part rigging diagram for the Dr. Phillips Center">
+              <img src="images/dr-phillips-rigging.png" alt="Four-part rigging diagram for the Dr. Phillips Center" loading="lazy">
+              <span class="zoom-hint">View larger</span>
+            </button>
+            <figcaption>
+              <h3>Dr. Phillips Center Rigging Design</h3>
+              <p>Rigging design and illustration by Curtis L. Mayes</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <button class="image-button" type="button" data-lightbox="images/daikin-park-roof.png" data-alt="Large retractable roof steel framing under construction at Daikin Park">
+              <img src="images/daikin-park-roof.png" alt="Large retractable roof steel framing under construction at Daikin Park" loading="lazy">
+              <span class="zoom-hint">View larger</span>
+            </button>
+            <figcaption>
+              <h3>Daikin Park Retractable Roof</h3>
+              <p class="former-name">Formerly Enron Field</p>
+              <p>Erection planning by Curtis L. Mayes for Derr Construction Co.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card gallery-card-wide">
+            <button class="image-button" type="button" data-lightbox="images/santa-fe-opera.png" data-alt="Completed Santa Fe Opera roof structure over the audience seating area">
+              <img src="images/santa-fe-opera.png" alt="Completed Santa Fe Opera roof structure over the audience seating area" loading="lazy">
+              <span class="zoom-hint">View larger</span>
+            </button>
+            <figcaption>
+              <h3>Santa Fe Opera</h3>
+              <p>Erection planning by Curtis L. Mayes for Derr Construction Co.</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="project-detail">
+          <div class="detail-heading">
+            <p class="section-label">Miami Marlins Retractable Roof</p>
+            <h3>Shoring and decentering system</h3>
+          </div>
+          <div class="detail-grid">
+            <figure class="detail-card">
+              <button class="image-button diagram" type="button" data-lightbox="images/marlins-hydraulics-illustration.png" data-alt="Engineering illustration of a shoring and decentering hydraulic ramp system">
+                <img src="images/marlins-hydraulics-illustration.png" alt="Engineering illustration of a shoring and decentering hydraulic ramp system" loading="lazy">
+                <span class="zoom-hint">View larger</span>
+              </button>
+              <figcaption>
+                <h4>Shoring and Decentering Hydraulic Ramp System</h4>
+                <p>Design and illustration by Curtis L. Mayes</p>
+              </figcaption>
+            </figure>
+            <figure class="detail-card">
+              <button class="image-button" type="button" data-lightbox="images/marlins-shoring-photo.png" data-alt="Temporary steel shoring and decentering system supporting roof construction">
+                <img src="images/marlins-shoring-photo.png" alt="Temporary steel shoring and decentering system supporting roof construction" loading="lazy">
+                <span class="zoom-hint">View larger</span>
+              </button>
+              <figcaption>
+                <h4>Shoring and Decentering System</h4>
+                <p>Design by Curtis L. Mayes</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="about" id="about">
       <div class="container about-grid">
         <div>
-          <p class="section-label light">About</p>
+          <p class="section-label section-label-light">About</p>
           <h2>Curtis L. Mayes, P.E.</h2>
           <p class="principal">Principal</p>
         </div>
         <div class="about-copy">
           <p>Mayes Structural Solutions is a Colorado-based structural engineering consultancy serving clients who need specialized support for steel erection and related technical work.</p>
+          <p>Services are tailored to the project scope, required deliverables, and level of review.</p>
         </div>
       </div>
     </section>
@@ -93,7 +210,7 @@
             <h2>Have a project to discuss?</h2>
             <p>Send a brief description of the project, schedule, and anticipated scope of services.</p>
           </div>
-          <a class="button button-primary contact-button" href="mailto:INFO@MAYESSTRUCTURAL.COM">Email Mayes Structural Solutions</a>
+          <a class="button button-primary contact-button" href="mailto:info@MayesStructural.com">Email Mayes Structural Solutions</a>
         </div>
       </div>
     </section>
@@ -102,12 +219,15 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>© <span id="year"></span> Mayes Structural Solutions. All rights reserved.</p>
-      <p>Structural engineering consulting</p>
+      <a href="mailto:info@MayesStructural.com">info@MayesStructural.com</a>
     </div>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <dialog class="lightbox" id="lightbox" aria-label="Expanded project image">
+    <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+    <img id="lightbox-image" src="" alt="">
+  </dialog>
+
+  <script src="script.js"></script>
 </body>
 </html>
